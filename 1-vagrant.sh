@@ -1,4 +1,4 @@
-sudp apt -y update
+sudo apt -y update
 sudo apt install -y virtualbox
 sudo apt install -y vagrant
 vagrant -v
