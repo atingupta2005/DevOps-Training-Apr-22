@@ -60,8 +60,14 @@ sudo apt -y install tree
 ```
 sudo apt install -y python3-pip
 pip3 -V
+```
+```
 sudo apt install -y python3-virtualenv
+```
+```
 virtualenv ~/venv
+```
+```
 source ~/venv/bin/activate
 ```
 
@@ -100,5 +106,7 @@ sudo apt-get -y install r-base
 sudo apt-get  -y install gdebi-core
 wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-2021.09.0-351-amd64.deb
 sudo gdebi rstudio-server-2021.09.0-351-amd64.deb
+sudo systemctl status rstudio-server.service
+sudo systemctl start rstudio-server.service
 curl http://ec2-54-201-159-31.us-w:8787
 ```
